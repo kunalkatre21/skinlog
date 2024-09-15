@@ -11,10 +11,13 @@ const ProfileCard = () => {
         />
         <div>
           <h3 className="text-lg font-medium">Kristin Watson</h3>
-          <p className="text-sm text-muted">Design Manager</p>
+          <p className="text-sm text-muted">Design Manager at XYZ Corp</p>
         </div>
       </div>
-      <Progress value={83} className="w-full" />
+      <div className="space-y-2">
+        <p className="text-sm font-semibold">Task Progress</p>
+        <Progress value={83} className="w-full" />
+      </div>
     </Card>
   );
 };

@@ -5,6 +5,7 @@ import ProductivityAnalytics from "./ProductivityAnalytics";
 import MeetingsList from "./MeetingsList";
 import DevelopedAreas from "./DevelopedAreas";
 import NotificationsCard from "./NotificationsCard";
+import ProfileCard from "./ProfileCard"; // Added ProfileCard import
 
 const DashboardLayout = () => {
   return (
@@ -13,6 +14,7 @@ const DashboardLayout = () => {
         <ProfileSection />
         <TaskCard />
         <TrackersCard />
+        <ProfileCard /> {/* Added ProfileCard component */}
       </div>
       <div className="col-span-2">
         <ProductivityAnalytics />
