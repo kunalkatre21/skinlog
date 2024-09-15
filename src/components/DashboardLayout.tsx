@@ -4,6 +4,7 @@ import TrackersCard from "./TrackersCard";
 import ProductivityAnalytics from "./ProductivityAnalytics";
 import MeetingsList from "./MeetingsList";
 import DevelopedAreas from "./DevelopedAreas";
+import NotificationsCard from "./NotificationsCard";
 
 const DashboardLayout = () => {
   return (
@@ -19,6 +20,7 @@ const DashboardLayout = () => {
       </div>
       <div className="col-span-1">
         <DevelopedAreas />
+        <NotificationsCard />
       </div>
     </div>
   );
