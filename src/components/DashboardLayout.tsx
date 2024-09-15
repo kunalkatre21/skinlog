@@ -1,4 +1,4 @@
-import ProfileCard from "./ProfileCard";
+import ProfileSection from "./ProfileSection";
 import TaskCard from "./TaskCard";
 import TrackersCard from "./TrackersCard";
 import ProductivityAnalytics from "./ProductivityAnalytics";
@@ -10,7 +10,7 @@ const DashboardLayout = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
       <div className="col-span-1">
-        <ProfileCard />
+        <ProfileSection />
         <TaskCard />
         <TrackersCard />
       </div>
