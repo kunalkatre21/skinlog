@@ -14,7 +14,10 @@ const ProfileSection = () => {
           <p className="text-sm text-muted">Design Manager</p>
         </div>
       </div>
-      <Progress value={83} className="w-full" />
+      <div className="space-y-2">
+        <p className="text-sm font-semibold">Task Progress</p>
+        <Progress value={83} className="w-full" />
+      </div>
     </Card>
   );
 };
